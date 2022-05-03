@@ -4,7 +4,7 @@ import com.sofkau.ToDoApp.entity.Note;
 
 import java.util.List;
 
-public interface noteService {
+public interface NoteService {
 
     List<Note> getNotes();
 

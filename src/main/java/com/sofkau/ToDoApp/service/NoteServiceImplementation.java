@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class NoteServiceImplementation implements noteService {
+public class NoteServiceImplementation implements NoteService {
 
     @Autowired
     private NoteRepository noteRepository;
