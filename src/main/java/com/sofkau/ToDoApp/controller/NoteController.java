@@ -30,7 +30,7 @@ public class NoteController {
         return service.updateNote(note);
     }
 
-    @DeleteMapping("delette/note/{id}")
+    @DeleteMapping("delete/note/{id}")
     public void deleteNote(@PathVariable Long id){
         service.deleteNote(id);
     }
